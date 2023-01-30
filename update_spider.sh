@@ -20,7 +20,7 @@ for str in $containerId
 do
   docker rmi $str
 done
-docker iamges
+docker images
 
 echo "FROM python:3.9.13
 RUN apt-get update && apt-get install vim -y && apt-get install git -y
